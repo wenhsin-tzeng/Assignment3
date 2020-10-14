@@ -1,0 +1,34 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background: rgb(174,206,238);
+  background: radial-gradient(circle, rgba(174,206,238,1) 0%, rgba(95,87,236,0.7973564425770308) 100%);
+  height: 90vh;
+  width: 90vw;
+}
+.box2{
+  padding-left: 40px;
+  padding-top: 9px;
+  font-size: 25px;
+  height: 75vh;
+  width: 80vw;
+  border-style: double;
+}
+.box3{
+  padding-left: 100px;
+  padding-top: 9px;
+  font-size: 25px;
+  height: 40vh;
+  width: 80vw;
+  border-style: ridge;
+  color: white;
+}
+.link{
+  font-size: 50px;
+  position: absolute;
+  padding-right: 200px;
+  height: 10vh;
+  width: 40vw;
+}

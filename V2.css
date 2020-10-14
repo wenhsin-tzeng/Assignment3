@@ -1,0 +1,18 @@
+body{
+  background: rgb(207,4,163);
+  background: linear-gradient(90deg, rgba(207,4,163,0.7077205882352942) 44%, rgba(237,141,60,0.7777485994397759) 100%, rgba(252,212,69,1) 100%);
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.first{
+  text-transform: capitalize;
+  margin: 20px;
+  color: white;
+  word-spacing: 10px;
+}
+.backlink{
+  margin-top: 20px;
+  margin-left: 420px;
+  font-size: 30px;
+}

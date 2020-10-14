@@ -1,0 +1,10 @@
+body{
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(144,143,145,1) 100%);
+  font-family: 'Poppins', sans-serif;
+  word-spacing: 20px;
+  font-size: 40px;
+}
+.box{
+  margin-left: 50px;
+}

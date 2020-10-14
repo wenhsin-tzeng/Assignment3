@@ -1,0 +1,35 @@
+body{
+  background-color: #7db1ff;
+  background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.box{
+  padding-top: 15px;
+  padding-left: 20px;
+  font-size: 5px;
+  position: absolute;
+  height: 180px;
+  width: 120px;
+  border-style: dashed;
+  border-color: grey;
+  top: calc(35%);
+  left: calc(25%);
+  background-color: white;
+  border-radius: 50px;
+}
+.box:hover{
+  transform: scale(4.6);
+  transition: all 3s ease;
+  background-color: #82B2F3;
+  color: black;
+  border-color: transparent;
+}
+.inside{
+  position: relative;
+}
+.link{
+  position: absolute;
+  font-size: 50px;
+  top: 45%;
+  left: 60%;
+}

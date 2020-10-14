@@ -1,0 +1,25 @@
+body{
+  font-family: 'Abril Fatface', cursive;
+  line-height: 30px;
+  font-size: 25px;
+  background: rgb(238,174,174);
+  background: radial-gradient(circle, rgba(238,174,174,1) 0%, rgba(210,22,22,1) 100%);
+  position: relative;
+}
+.link{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.name{
+  position: absolute;
+  font-size: 50px;
+  color: white;
+  height: 130px;
+  width: 200px;
+  text-align: center;
+  border-style: solid;
+  margin-left: 700px;
+  border-radius: 100px;
+  padding-top: 25px;
+}

@@ -1,0 +1,271 @@
+body{
+  background: rgb(242,21,23);
+  background: linear-gradient(90deg, rgba(242,21,23,0.9710259103641457) 0%, rgba(85,148,251,0.9486169467787114) 42%, rgba(252,189,76,0.758140756302521) 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  padding-top: 20px;
+  padding-left: 30px;
+  height: 90vh;
+  width: 90vw;
+}
+.title{
+  font-size: 100px;
+  font-weight: 300;
+  padding-left: 110px;
+  color: black;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes example{
+  0%   {color:black; left:0px; top:0px;}
+  25%  {color:#E0798F; left:0px; top:50px;}
+  50%  {color:lightblue; left:0px; top:100px;}
+  75%  {color:lightyellow; left:0px; top:150px;}
+  100% {color:black;left:0px; top:200px;}
+}
+.v{
+  font-size: 25px;
+  position: relative;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.box{
+  position: absolute;
+  padding-top: 170px;
+}
+.test{
+  font-size: 80px;
+  /* padding-left: 110px; */
+  position: absolute;
+  margin-left: 110px;
+  height: 90px;
+  width: 50px;
+  background-color: transparent;
+  color: black;
+}
+a.test:link{
+  text-decoration: none;
+  color: black;
+}
+a.test:visited{
+  text-decoration: none;
+}
+a.test:hover{
+  color: blue;
+  text-decoration: underline;
+}
+a.test:active{
+  color: pink;
+}
+.two{
+  font-size: 80px;
+  position: absolute;
+  color: black;
+  height: 90px;
+  width: 50px;
+  margin-left: 190px;
+}
+a.two:link{
+  text-decoration: none;
+  color: black;
+}
+a.two:visited{
+  text-decoration: none;
+}
+a.two:hover{
+  color: blue;
+  text-decoration: underline;
+}
+a.two:active{
+  color: pink;
+}
+.three{
+  font-size: 80px;
+  position: absolute;
+  color: black;
+  height: 90px;
+  width: 50px;
+  margin-left: 270px;
+}
+a.three:link{
+  text-decoration: none;
+  color: black;
+}
+a.three:visited{
+  text-decoration: none;
+}
+a.three:hover{
+  color: blue;
+  text-decoration: underline;
+}
+a.three:active{
+  color: pink;
+}
+.four{
+  font-size: 80px;
+  position: absolute;
+  color: black;
+  height: 90px;
+  width: 50px;
+  margin-left: 350px;
+}
+a.four:link{
+  text-decoration: none;
+  color: black;
+}
+a.four:visited{
+  text-decoration: none;
+}
+a.four:hover{
+  color: blue;
+  text-decoration: underline;
+}
+a.four:active{
+  color: pink;
+}
+.five{
+  font-size: 80px;
+  position: absolute;
+  color: black;
+  height: 90px;
+  width: 50px;
+  margin-left: 430px;
+}
+a.five:link{
+  text-decoration: none;
+  color: black;
+}
+a.five:visited{
+  text-decoration: none;
+}
+a.five:hover{
+  color: blue;
+  text-decoration: underline;
+}
+a.five:active{
+  color: pink;
+}
+.six{
+  font-size: 80px;
+  position: absolute;
+  color: black;
+  height: 90px;
+  width: 50px;
+  margin-left: 830px;
+}
+a.six:link{
+  text-decoration: none;
+  color: black;
+}
+a.six:visited{
+  text-decoration: none;
+}
+a.six:hover{
+  color: blue;
+  text-decoration: underline;
+}
+a.six:active{
+  color: pink;
+}
+.seven{
+  font-size: 80px;
+  position: absolute;
+  color: black;
+  height: 90px;
+  width: 50px;
+  margin-left: 910px;
+}
+a.seven:link{
+  text-decoration: none;
+  color: black;
+}
+a.seven:visited{
+  text-decoration: none;
+}
+a.seven:hover{
+  color: blue;
+  text-decoration: underline;
+}
+a.seven:active{
+  color: pink;
+}
+.eight{
+  font-size: 80px;
+  position: absolute;
+  color: black;
+  height: 90px;
+  width: 50px;
+  margin-left: 990px;
+}
+a.eight:link{
+  text-decoration: none;
+  color: black;
+}
+a.eight:visited{
+  text-decoration: none;
+}
+a.eight:hover{
+  color: blue;
+  text-decoration: underline;
+}
+a.eight:active{
+  color: pink;
+}
+.nine{
+  font-size: 80px;
+  position: absolute;
+  color: black;
+  height: 90px;
+  width: 50px;
+  margin-left: 1070px;
+}
+a.nine:link{
+  text-decoration: none;
+  color: black;
+}
+a.nine:visited{
+  text-decoration: none;
+}
+a.nine:hover{
+  color: blue;
+  text-decoration: underline;
+}
+a.nine:active{
+  color: pink;
+}
+.ten{
+  font-size: 80px;
+  position: absolute;
+  color: black;
+  height: 90px;
+  width: 50px;
+  margin-left: 1140px;
+}
+a.ten:link{
+  text-decoration: none;
+  color: black;
+}
+a.ten:visited{
+  text-decoration: none;
+}
+a.ten:hover{
+  color: blue;
+  text-decoration: underline;
+}
+a.ten:active{
+  color: pink;
+}
+.name{
+  font-size: 15px;
+  color: transparent;
+  margin-left: 535px;
+  padding-top: 30px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.name:hover{
+  color: black
+}

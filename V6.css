@@ -1,0 +1,43 @@
+body{
+  font-size: 80px;
+  background-color: black;
+}
+.box1{
+  /* color: white; */
+  position: absolute;
+  height: 280px;
+  width: 230px;
+  border-style: double;
+  margin-left: 20px;
+  background-color: white;
+  text-align: center;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes example{
+  0%   {left:0px; top:0px;}
+  50%  {left:700px; top:200px;}
+  100% {left:0px; top:380px;}
+}
+.body{
+  padding-left: 20px;
+  font-size: 15px;
+  position: absolute;
+  height: 460px;
+  width: 350px;
+  border-style: double;
+  top: calc(25%);
+  right: calc(5%);
+  background-color: white;
+}
+.link{
+  font-size: 50px;
+  position: absolute;
+  color: white;
+  height: 160px;
+  width: 350px;
+  top: calc(5%);
+  right: calc(5%);
+}
